@@ -23,18 +23,27 @@ body{
 
 
 #menu{
-    margin-left: 10%;
+    margin-left: 3%;
 }
 
 
 .boton{
     white-space: nowrap;
-    border: 1px solid #000000;
+    border: 15px solid #ffffff;
     padding: 1% 5%;
     text-align:center;
     width: 100px;
     display:inline-block;
+    background: #8f8f8f;
+}
 
+.boton:hover{
+	background: #494949;
+}
+
+.textboton{
+    color: #ffffff;
+    text-decoration: none;
 }
 
 #direccion{

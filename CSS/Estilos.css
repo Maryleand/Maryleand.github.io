@@ -6,7 +6,7 @@ body{
 #fondo{
     position: absolute;
             width: 70%;
-            height: 200%;
+            height: auto;
             border: 1px solid #ffffff;
             background-color: #ffffff;
             margin-left: 14%;
@@ -56,4 +56,21 @@ body{
 
 #redessociales{
     margin-left: 42%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+#textproducts{
+    width: 90%;
+    margin-left: 5%;
+}
+
+#imgsgaleria{
+    margin-left: 6%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.imggaleria{
+    margin-left: 4%;
 }

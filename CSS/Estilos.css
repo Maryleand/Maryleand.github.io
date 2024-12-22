@@ -9,6 +9,7 @@ body{
             height: auto;
             background-color: #ffffff;
             margin-left: 14%;
+            z-index: 2;
 }
 
 #logo{
@@ -47,9 +48,11 @@ body{
 
 .footer{
     position: absolute;
+    width: 70%;
     background-color: #ffffff;
-    width: 100%;
-    top: 940px;
+    margin-left: 14%;
+    padding-top: 80%;
+    z-index: 1;
 }
 
 #direccion{
@@ -69,12 +72,12 @@ body{
 #textproducts{
     width: 90%;
     margin-left: 5%;
+    margin-top: 4%;
 }
 
 #imgsgaleria{
     margin-left: 6%;
-    margin-top: 4%;
-    margin-bottom: 5%;
+    margin-top: 10%;
 }
 
 .imggaleria{

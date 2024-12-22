@@ -7,7 +7,6 @@ body{
     position: absolute;
             width: 70%;
             height: auto;
-            border: 1px solid #ffffff;
             background-color: #ffffff;
             margin-left: 14%;
 }
@@ -46,6 +45,13 @@ body{
     text-decoration: none;
 }
 
+.footer{
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    top: 940px;
+}
+
 #direccion{
     margin-left: 25%;
 }
@@ -73,4 +79,30 @@ body{
 
 .imggaleria{
     margin-left: 4%;
+}
+
+.sectioncontact{
+    margin-top: 2%;
+}
+
+#horario{
+    position: relative;
+    float: left;
+    left: 5%;
+}
+
+#contacto{
+    position: relative;
+    float: right;
+    right: 10%;
+    margin-top: 2%;
+}
+
+#imgrestaurant{
+    margin-top: 35%;
+    margin-left: 8%;
+}
+
+#lista{
+    list-style-type: none;
 }

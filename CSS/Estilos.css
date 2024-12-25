@@ -109,3 +109,30 @@ body{
 #lista{
     list-style-type: none;
 }
+
+
+#formulario{
+    position: relative;
+    left: 37%;
+    margin-top: 3%;
+}
+
+#boton2{
+    width: 100px;
+    height: 30px;
+    background: #b14f32;
+    color: #ffffff;
+    border: #b14f32;
+    margin-top: 22%;
+}
+
+#boton2:hover{
+    background: #cb6d51;
+    border: #cb6d51;
+}
+
+#bannerpresupuesto{
+    position: relative;
+    left: 15%;
+    margin-top: 5%;
+}

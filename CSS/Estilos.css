@@ -12,46 +12,49 @@ body{
             z-index: 2;
 }
 
-#logo{
-    position: relative;
-    margin-left: 40%;
-    margin-right: 30%;
-    margin-bottom: 2%;
-    margin-top: 2%;
+#logo {
+    margin-right: auto; /* Empujar el logo a la izquierda */
+    margin-left: 7%;
+}
+
+#menu {
+    display: flex; /* Usar flexbox para alinear los elementos */
+    align-items: center; /* Alinear verticalmente al centro */
+    justify-content: space-between; /* Espacio entre los elementos */
+    background-color: #b14f32; /* Color de fondo del menú */
+    padding: 0px; /* Espaciado interno */
+    position: fixed; /* Fijar el menú en la parte superior */
+    top: 0; /* Posición en la parte superior */
+    left: 0; /* Alinear a la izquierda */
+    right: 0; /* Alinear a la derecha */
+    z-index: 3; /* Asegurarse de que esté por encima de otros elementos */
+    width: 71%;
+    margin-left: 14%;
 }
 
 
-#menu{
-    margin-left: 3%;
+
+.boton {
+    margin: 0 45px; /* Espaciado entre los botones */
 }
 
-
-.boton{
-    white-space: nowrap;
-    border: 15px solid #ffffff;
-    padding: 1% 5%;
-    text-align:center;
-    width: 100px;
-    display:inline-block;
-    background: #b14f32;
-    ;
+.textboton:hover {
+    background-color: #cb6d51; /* Color de fondo al pasar el mouse */
 }
 
-.boton:hover{
-	background: #cb6d51;
+.textboton {
+    color: #ffffff; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    padding: 15px; /* Espaciado interno en los enlaces */
 }
 
-.textboton{
-    color: #ffffff;
-    text-decoration: none;
-}
 
 .footer{
     position: absolute;
     width: 70%;
     background-color: #ffffff;
     margin-left: 14%;
-    padding-top: 80%;
+    padding-top: 67%;
     z-index: 1;
 }
 
@@ -72,7 +75,7 @@ body{
 #textproducts{
     width: 90%;
     margin-left: 5%;
-    margin-top: 4%;
+    margin-top: 20%;
 }
 
 #imgsgaleria{
@@ -85,7 +88,7 @@ body{
 }
 
 .sectioncontact{
-    margin-top: 2%;
+    margin-top: 17%;
 }
 
 #horario{
@@ -114,7 +117,7 @@ body{
 #formulario{
     position: relative;
     left: 37%;
-    margin-top: 3%;
+    margin-top: 19%;
 }
 
 #boton2{

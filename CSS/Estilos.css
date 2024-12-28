@@ -22,20 +22,17 @@ body{
     align-items: center; /* Alinear verticalmente al centro */
     justify-content: space-between; /* Espacio entre los elementos */
     background-color: #b14f32; /* Color de fondo del menú */
-    padding: 0px; /* Espaciado interno */
     position: fixed; /* Fijar el menú en la parte superior */
-    top: 0; /* Posición en la parte superior */
-    left: 0; /* Alinear a la izquierda */
-    right: 0; /* Alinear a la derecha */
     z-index: 3; /* Asegurarse de que esté por encima de otros elementos */
-    width: 71%;
+    width: 70%;
     margin-left: 14%;
+    top: 0%;
 }
 
 
 
 .boton {
-    margin: 0 45px; /* Espaciado entre los botones */
+    margin: 0 35px; /* Espaciado entre los botones */
 }
 
 .textboton:hover {
@@ -48,6 +45,44 @@ body{
     padding: 15px; /* Espaciado interno en los enlaces */
 }
 
+.contetindex{
+    margin-top: 20%;
+    margin-left: 4%;
+}
+
+#textindex{
+    width: 50%;
+}
+
+#imgindex{
+    position: relative;
+    float: right;
+    margin-right: 10%;
+}
+
+.promo{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+#imgprom{
+    position: relative;
+    float: left;
+}
+
+#tableprom{
+    border: #000000 solid 3px;
+    padding: 1% 3% 3% 3%;
+    position: relative;
+    float: right;
+    margin-right: 13%;
+}
+
+#bannerindex{
+    margin-left: 10%;
+    margin-top: 1%;
+}
 
 .footer{
     position: absolute;
@@ -104,8 +139,12 @@ body{
     margin-top: 2%;
 }
 
+#cajamapa{
+    border: #000000 solid 1px;
+}
+
 #imgrestaurant{
-    margin-top: 35%;
+    margin-top: 50%;
     margin-left: 8%;
 }
 
@@ -116,7 +155,7 @@ body{
 
 #formulario{
     position: relative;
-    left: 37%;
+    left: 35%;
     margin-top: 19%;
 }
 

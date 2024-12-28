@@ -29,7 +29,9 @@ body{
     top: 0%;
 }
 
-
+#pagactual{
+    border: #ffffff solid 2px;
+}
 
 .boton {
     margin: 0 35px; /* Espaciado entre los botones */
@@ -144,7 +146,7 @@ body{
 }
 
 #imgrestaurant{
-    margin-top: 50%;
+    margin-top: 53%;
     margin-left: 8%;
 }
 

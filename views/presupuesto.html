@@ -15,80 +15,74 @@
     <title>Restaurant Durant`s</title>
 </head>
 <body>
-        <header>
-            <!--Div que contiene el menú-->
-            <div id="menu">
+    <header>
+        <!--Div que contiene el menú-->
+        <div id="menu">
             <img src="../images/Logorestaurant.png" alt="logotipo" width="170" height="150" id="logo">
-            <span class="boton">
-                <a href="../index.html" class="textboton">Inicio</a></span>
-                <span class="boton">
-                <a href="productos.html" class="textboton">Productos</a></span>
-                <span class="boton">
-                <a href="#" class="textboton" id="pagactual">Presupuesto</a></span>
-                <span class="boton">
-                <a href="contacto.html" class="textboton">Contacto</a></span>
-            </div>
+            <span class="boton"><a href="../index.html" class="textboton">Inicio</a></span>
+            <span class="boton"><a href="productos.html" class="textboton">Productos</a></span>
+            <span class="boton"><a href="#" class="textboton" id="pagactual">Presupuesto</a></span>
+            <span class="boton"><a href="contacto.html" class="textboton">Contacto</a></span>
+        </div>
     </header>
+    <!--Div del fondo blanco y el contenido-->
     <div id="fondo">
-    <section id="formulario" >
-    <p>
-<h1>¿Necesitas un presupuesto?<br><br>Envíanos los siguientes datos</h1>
-    </p>
-    <table id="tabla">
-        <form action="#" method="post">
-        <tr>
-        <td>Nombre:</td>
-        <td><input type="text" id="name" name="name" required></td>
-    </tr>
-    <tr>
-    <td>Email:</td>
-    <td><input type="email" id="email" name="email" required placeholder="Email@gmail.com"></td>
-    </tr>
-    <tr>
-        <td>Teléfono:</td>
-        <td><input type="tel" id="phone" name="phone" required pattern="[0-9]{9}" placeholder="123456789"></td>
-    </tr>
-    <tr>
-        <td colspan="2">Describir motivo:</td>
-        
-    </tr>
-    <tr>
-        <td colspan="2"><textarea id="info" name="info" rows="4" cols="35" required></textarea></td>
-    </tr>
-    <tr>
-        <td colspan="2">
-            <input type="checkbox" id="privacy" name="privacy" required>
-            Acepto las política de privacidad
-    </td>
-    <tr>
-        <td colspan="2">
-            <input type="checkbox" id="adulto" name="adulto" required>
-            Soy una persona mayor de edad
-        </td>
-    </tr>
-    </tr>
-    <tr>
-        <td><button type="submit" id="boton2">Enviar</button></td>
-    </tr>
-    </form>
-    </table>
-</section>
-<section>
-    <img src="../images/pexels-khwanchai-4161612.jpg" alt="banner" width="656" height="270" id="bannerpresupuesto">
-</section>
-</div>
+    <!--primera section-->
+    <section id="formulario">
+        <p><h1>¿Necesitas un presupuesto?<br><br>Envíanos los siguientes datos</h1></p>
+        <!--tabla-->
+        <table>
+            <!--formuario dentro de la tabla-->
+            <form action="#" method="post">
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" id="email" name="email" required placeholder="Email@gmail.com"></td>
+            </tr>
+            <tr>
+                <td>Teléfono:</td>
+                <td><input type="tel" id="phone" name="phone" required pattern="[0-9]{9}" placeholder="123456789"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Describir motivo:</td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea id="info" name="info" rows="4" cols="35" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" id="privacy" name="privacy" required>Acepto las política de privacidad
+                </td>
+            <tr>
+                <td colspan="2"><input type="checkbox" id="adulto" name="adulto" required>Soy una persona mayor de edad
+                </td>
+            </tr>
+            <tr>
+                <td><button type="submit" id="boton2">Enviar</button></td>
+            </tr>
+            </form>
+        </table>
+    </section>
+    <!--segunda section-->
+    <section>
+        <img src="../images/pexels-khwanchai-4161612.jpg" alt="banner" width="656" height="270" id="bannerpresupuesto">
+    </section>
+    </div>
+    <!--footer-->
     <footer class="footer">
         <p id="direccion">
             Calle Paloma 3 │ Edificio La Victoriana Bajo │ Málaga │ 45678 │ España
-            </p>
-        <p id="avisolegal">Restaurant Durant's S.L.U. • Todos los derechos reservados • Aviso legal • Politica de privacidad • Politica de cookies
+        </p>
+        <p id="avisolegal">
+            Restaurant Durant's S.L.U. • Todos los derechos reservados • Aviso legal • Politica de privacidad • Politica de cookies
         </p>
         <nav id="redessociales">
-        <a href="https://www.youtube.com" alt="redirección a youtube"><img src="../images/youtube.png" alt="logo de youtube" width="50" height="50"></a>
-        <a href="https://www.facebook.com" alt="redirección a facebook" ><img src="../images/facebook.png" alt="logo de facebook" width="50" height="50" ></a>
-        <a href="https://www.instagram.com" alt="redirección a instagram" ><img src="../images/instagram.png" alt="logo de instagram" width="50" height="50"></a>
-    </nav>
+            <a href="https://www.youtube.com" alt="redirección a youtube"><img src="../images/youtube.png" alt="logo de youtube" width="50" height="50"></a>
+            <a href="https://www.facebook.com" alt="redirección a facebook" ><img src="../images/facebook.png" alt="logo de facebook" width="50" height="50" ></a>
+            <a href="https://www.instagram.com" alt="redirección a instagram" ><img src="../images/instagram.png" alt="logo de instagram" width="50" height="50"></a>
+        </nav>
     </footer>
-
 </body>
 </html>

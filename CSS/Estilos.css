@@ -1,3 +1,5 @@
+/*Estilos del fondo*/
+
 body{
     background-image: url(../images/Fondorestaurant.jpg);
     background-repeat: repeat-x; 
@@ -12,40 +14,71 @@ body{
             z-index: 2;
 }
 
+/*Estilos del menu*/
+
 #logo {
-    margin-right: auto; /* Empujar el logo a la izquierda */
+    margin-right: auto;
     margin-left: 7%;
 }
 
 #menu {
-    display: flex; /* Usar flexbox para alinear los elementos */
-    align-items: center; /* Alinear verticalmente al centro */
-    justify-content: space-between; /* Espacio entre los elementos */
-    background-color: #b14f32; /* Color de fondo del menú */
-    position: fixed; /* Fijar el menú en la parte superior */
-    z-index: 3; /* Asegurarse de que esté por encima de otros elementos */
+    display: flex; /* Flexbox para alinear los elementos */
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b14f32;
+    position: fixed;
+    z-index: 3; /* Asegurarse de que esté por encima del fondo */
     width: 70%;
     margin-left: 14%;
     top: 0%;
 }
+
+/*Estilos de los botones del menu*/
 
 #pagactual{
     border: #ffffff solid 2px;
 }
 
 .boton {
-    margin: 0 35px; /* Espaciado entre los botones */
+    margin: 0 35px;
 }
 
 .textboton:hover {
-    background-color: #cb6d51; /* Color de fondo al pasar el mouse */
+    background-color: #cb6d51;
 }
 
 .textboton {
-    color: #ffffff; /* Color del texto */
-    text-decoration: none; /* Sin subrayado */
-    padding: 15px; /* Espaciado interno en los enlaces */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
 }
+
+/*Estilos del footer*/
+
+.footer{
+    position: absolute;
+    width: 70%;
+    background-color: #ffffff;
+    margin-left: 14%;
+    padding-top: 67%;
+    z-index: 1;
+}
+
+#direccion{
+    margin-left: 25%;
+}
+
+#avisolegal{
+    margin-left: 10%;
+}
+
+#redessociales{
+    margin-left: 42%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+/*Estilos de index*/
 
 .contetindex{
     margin-top: 20%;
@@ -86,28 +119,7 @@ body{
     margin-top: 1%;
 }
 
-.footer{
-    position: absolute;
-    width: 70%;
-    background-color: #ffffff;
-    margin-left: 14%;
-    padding-top: 67%;
-    z-index: 1;
-}
-
-#direccion{
-    margin-left: 25%;
-}
-
-#avisolegal{
-    margin-left: 10%;
-}
-
-#redessociales{
-    margin-left: 42%;
-    margin-bottom: 1%;
-    margin-top: 2%;
-}
+/*Estilos de productos*/
 
 #textproducts{
     width: 90%;
@@ -123,6 +135,8 @@ body{
 .imggaleria{
     margin-left: 4%;
 }
+
+/*Estilos de contacto*/
 
 .sectioncontact{
     margin-top: 17%;
@@ -154,6 +168,7 @@ body{
     list-style-type: none;
 }
 
+/*Estilos de presupuesto*/
 
 #formulario{
     position: relative;
